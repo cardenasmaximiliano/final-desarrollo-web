@@ -6,6 +6,7 @@
   <title>SS CREW — Body, Mind & Soul</title>
   <link rel="shortcut icon" href="./assets/logo-sscrew.PNG" type="image/x-icon">
   <meta name="description" content="SS CREW: acompañamiento integral para alcanzar objetivos reales, medibles y sostenibles." />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
 
 
@@ -14,7 +15,7 @@
 
 <body>
 
-  <header class="barra-superior">
+  <header class="barra-superior" >
     <div class="container barra-superior__contenedor">
       <a class="marca" href="#inicio" aria-label="SS CREW">
         <img src="./assets/logo-sscrew.PNG" alt="Logo SS CREW">
@@ -32,11 +33,12 @@
 
   <main id="inicio">
 
-    <section class="portada" aria-label="Sección principal">
+    <section class="portada" aria-label="Sección principal" >
       <div class="portada__fondo" aria-hidden="true"></div>
 
-      <div class="container portada__contenido">
-        <div class="portada__izquierda">
+      <div class="container portada__contenido" >
+        <div class="portada__izquierda" data-aos="fade-up"
+     data-aos-duration="3000">>
           <p class="subtitulo">Body, Mind & Soul</p>
 
           <h1 class="portada__titulo">
@@ -72,16 +74,16 @@
 
       <div class="cinta" aria-hidden="true">
         <div class="cinta__pista">
-          <span>SS CREW • ENFOQUE • DISCIPLINA • COMUNIDAD • SS CREW • </span>
-          <span>Body • Mind • Soul • SS CREW • </span>
+          <span>SS CREW • SS CREW • SS CREW • SS CREW • SS CREW • </span>
+          <span>SS CREW • SS CREW • SS CREW • SS CREW • SS CREW • </span>
         </div>
       </div>
     </section>
 
     <section class="section section--oscura" aria-label="Beneficios">
       <div class="container">
-        <section class="section__encabezado centrado">
-          <h2>Work on your body</h2>
+        <section class="section__encabezado centrado" >
+          <h2 data-aos="zoom-in">Work on your body</h2>
           <p>Disciplina, acompañamiento y progreso real: el combo que no falla.</p>
         </section>
 
@@ -110,7 +112,7 @@
     <section id="mi-carrera" class="section">
       <div class="container">
         <section class="section__encabezado">
-          <h2>Mi carrera</h2>
+          <h2 data-aos="zoom-in">Mi carrera</h2>
           <p>Confiar en el proceso arranca por conocer quién te guía.</p>
         </section>
 
@@ -146,7 +148,7 @@
     <section id="mvv" class="section section--oscura">
       <div class="container">
         <section class="section__encabezado">
-          <h2>Misión, visión y valores</h2>
+          <h2 data-aos="zoom-in">Misión, visión y valores</h2>
           <p>Enfoque integral: <strong>Body, Mind & Soul</strong>.</p>
         </section>
 
@@ -172,7 +174,7 @@
     <section id="que-es" class="section">
       <div class="container">
         <header class="section__encabezado">
-          <h2>¿Qué es SS CREW?</h2>
+          <h2 data-aos="zoom-in">¿Qué es SS CREW?</h2>
           <p>Una comunidad para mejorar, sin importar tu nivel.</p>
         </header>
 
@@ -186,7 +188,7 @@
           </article>
 
           <article class="tarjeta">
-            <h3>Para todos</h3>
+            <h3 >Para todos</h3>
             <p>
               Grandes, chicos, hombres, mujeres. No importa tu estado actual: se construye paso a paso.
             </p>
@@ -199,7 +201,7 @@
     <section id="atletas" class="section section--oscura">
       <div class="container">
         <section class="section__encabezado">
-          <h2>Atletas destacados</h2>
+          <h2 data-aos="zoom-in">Atletas destacados</h2>
           <p>Logros nacionales e internacionales: campeones, podios y mundialistas.</p>
         </section>
 
@@ -234,7 +236,7 @@
     <section id="contacto" class="section">
       <div class="container">
         <section class="section__encabezado">
-          <h2>Sumate a SS CREW</h2>
+          <h2 data-aos="zoom-in">Sumate a SS CREW</h2>
         </section>
 
         <div class="layout-formulario">
@@ -306,5 +308,8 @@
   </footer>
 
   <script src="./js/index.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
-
