@@ -368,7 +368,18 @@ textarea{resize: vertical}
 }
 .footer a{color: var(--accent); font-weight:900}
 
+.boton-top{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    border: 1px solid #ff880071;
+    padding: 5px;
+    border-radius: 10px ;
+}
 @media (max-width: 980px){
+    .portada{
+        background-position: center;
+    }
   .portada__contenido{grid-template-columns: 1fr; padding-top:56px}
   .grid--3{grid-template-columns: 1fr}
   .grid--4{grid-template-columns: repeat(2, minmax(0,1fr))}
